@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    "stripInternal": true,
+    "outDir": "out",
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.ts", "typings/*.d.ts"
+  ]
+}
